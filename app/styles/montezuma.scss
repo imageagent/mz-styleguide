@@ -1,0 +1,40 @@
+#SG-montezuma {
+
+  $mw-swatch-a: #2A4633;
+  $mw-swatch-b: #60504C;
+  $mw-swatch-c: #A1946A;
+  $mw-swatch-d: #C3BA98;
+  $mw-swatch-e: #A57D57;
+
+  .masthead {
+    background: url('../images/header-montezuma.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    
+    h1 {
+      color: #f7f7f7;
+      font-size: 4em;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+    }
+  }
+
+  .sg-section {
+    margin-top: 4em;
+    text-align: center;
+  }
+
+  .color-palette {
+    .swatch-a {
+      background-color: $mw-swatch-a;
+      border-radius: 4px 0 0 4px;
+    }
+    .swatch-b { background-color: $mw-swatch-b; }
+    .swatch-c { background-color: $mw-swatch-c; }
+    .swatch-d { background-color: $mw-swatch-d; }
+    .swatch-e {
+      background-color: $mw-swatch-e;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+
+}

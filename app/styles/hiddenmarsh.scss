@@ -1,0 +1,42 @@
+#SG-hiddenmarsh {
+
+  font-family: 'Helvetica', 'Arial', sans-serif;
+
+  $hm-swatch-a: #000000;
+  $hm-swatch-b: #e7e7e7;
+  $hm-swatch-c: #000000;
+  $hm-swatch-d: #e7e7e7;
+  $hm-swatch-e: #000000;
+
+  .masthead {
+    background: url('http://static.pexels.com/wp-content/uploads/2014/06/clouds-colorful-colourful-1029-1142x550.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    
+    h1 {
+      color: #f7f7f7;
+      font-size: 4em;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+    }
+  }
+
+  .sg-section {
+    margin-top: 4em;
+    text-align: center;
+  }
+
+  .color-palette {
+    .swatch-a {
+      background-color: $hm-swatch-a;
+      border-radius: 4px 0 0 4px;
+    }
+    .swatch-b { background-color: $hm-swatch-b; }
+    .swatch-c { background-color: $hm-swatch-c; }
+    .swatch-d { background-color: $hm-swatch-d; }
+    .swatch-e {
+      background-color: $hm-swatch-e;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+
+}

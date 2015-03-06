@@ -1,0 +1,40 @@
+#SG-idolridge {
+
+  $ir-swatch-a: #cacab6;
+  $ir-swatch-b: #5a5d41;
+  $ir-swatch-c: #212319;
+  $ir-swatch-d: #afaea2;
+  $ir-swatch-e: #a7a357;
+
+  .masthead {
+    background: url('http://static.pexels.com/wp-content/uploads/2014/06/clouds-colorful-colourful-1029-1142x550.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    
+    h1 {
+      color: #f7f7f7;
+      font-size: 4em;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+    }
+  }
+
+  .sg-section {
+    margin-top: 4em;
+    text-align: center;
+  }
+
+  .color-palette {
+    .swatch-a {
+      background-color: $ir-swatch-a;
+      border-radius: 4px 0 0 4px;
+    }
+    .swatch-b { background-color: $ir-swatch-b; }
+    .swatch-c { background-color: $ir-swatch-c; }
+    .swatch-d { background-color: $ir-swatch-d; }
+    .swatch-e {
+      background-color: $ir-swatch-e;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+
+}
