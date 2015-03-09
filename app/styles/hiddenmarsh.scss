@@ -1,15 +1,29 @@
 #SG-hiddenmarsh {
 
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  $hm-swatch-a: #DAA520;
+  $hm-swatch-b: #945F37;
+  $hm-swatch-c: #742909;
+  $hm-swatch-d: #612812;
+  $hm-swatch-e: #D4602B;
 
-  $hm-swatch-a: #000000;
-  $hm-swatch-b: #e7e7e7;
-  $hm-swatch-c: #000000;
-  $hm-swatch-d: #e7e7e7;
-  $hm-swatch-e: #000000;
+  font-family: 'Open Sans', sans-serif;
+
+  h1,
+  h2 {
+    color: $hm-swatch-d;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-weight: 700;
+  }
 
   .masthead {
-    background: url('http://static.pexels.com/wp-content/uploads/2014/06/clouds-colorful-colourful-1029-1142x550.jpg') no-repeat center center;
+    background: url('../images/header-hiddenmarsh.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
     
