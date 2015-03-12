@@ -1,28 +1,26 @@
 #SG-idolridge {
 
-  $ir-swatch-a: #A6F278;
-  $ir-swatch-b: #1F2F3E;
-  $ir-swatch-c: #157ABE;
-  $ir-swatch-d: #9CCEF1;
-  $ir-swatch-e: #112033;
+  $ir-swatch-a: #BDBAAC;
+  $ir-swatch-b: #D4EF9F;
+  $ir-swatch-c: #A95E33;
+  $ir-swatch-d: #393262;
+  $ir-swatch-e: #2A4633;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
+
+  h1 { color: $ir-swatch-d; }
+  h2 { color: $ir-swatch-c; }
+  h3 { color: $ir-swatch-a; }
 
   h1,
-  h2 {
-    color: $ir-swatch-b;
+  h2,
+  h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
   }
 
-  h3,
-  h4,
-  h5 {
-    font-weight: 700;
-  }
-
   .masthead {
-    background: url('../images/header-idolridge.jpg') no-repeat center center;
+    background: url('../images/header-idolridge.jpg') no-repeat center top fixed;
     background-size: cover;
     padding: 9em 0 7em;
     text-align: center;
@@ -34,9 +32,10 @@
     }
   }
 
-  .sg-section {
-    margin-top: 4em;
-    text-align: center;
+  .sub-header {
+    background: url('../images/header-aldercreek.jpg') no-repeat center bottom;
+    background-size: cover;
+    border-top: 10px solid $ir-swatch-d;
   }
 
   .color-palette {

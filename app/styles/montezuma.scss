@@ -1,14 +1,26 @@
 #SG-montezuma {
 
-  $mw-swatch-a: #2A4633;
-  $mw-swatch-b: #60504C;
-  $mw-swatch-c: #A1946A;
-  $mw-swatch-d: #C3BA98;
-  $mw-swatch-e: #A57D57;
+  $mw-swatch-a: #D1E8EC;
+  $mw-swatch-b: #F19B50;
+  $mw-swatch-c: #A95E33;
+  $mw-swatch-d: #7E2314;
+  $mw-swatch-e: #2A4633;
+
+  h1,
+  h2,
+  h3 {
+    font-family:'Sree Krushnadevaraya', serif;
+    margin-top: -0.357em;
+  }
+
+  h1 { color: $mw-swatch-c; font-size: 3.5em; }
+  h2 { color: $mw-swatch-d; font-size: 2.25em; }
+  h3 { color: $mw-swatch-d; font-size: 1.875em; }
 
   .masthead {
-    background: url('../images/header-montezuma.jpg') no-repeat center center;
+    background: url('../images/header-montezuma.jpg') no-repeat center top fixed;
     background-size: cover;
+    padding: 11.6em 0 9.6em;
     text-align: center;
     
     h1 {
@@ -18,9 +30,10 @@
     }
   }
 
-  .sg-section {
-    margin-top: 4em;
-    text-align: center;
+  .sub-header {
+    background: url('../images/header-oldforge.jpg') no-repeat center center;
+    background-size: cover;
+    border-top: 10px solid $mw-swatch-e;
   }
 
   .color-palette {

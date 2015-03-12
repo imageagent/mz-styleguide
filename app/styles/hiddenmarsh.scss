@@ -1,16 +1,20 @@
 #SG-hiddenmarsh {
 
-  $hm-swatch-a: #DAA520;
-  $hm-swatch-b: #945F37;
-  $hm-swatch-c: #742909;
-  $hm-swatch-d: #612812;
-  $hm-swatch-e: #D4602B;
+  $hm-swatch-a: #F1E3B4;
+  $hm-swatch-b: #DAA520;
+  $hm-swatch-c: #A95E33;
+  $hm-swatch-d: #742909;
+  $hm-swatch-e: #2A4633;
 
   font-family: 'Open Sans', sans-serif;
 
+  h1 { color: $hm-swatch-d; }
+  h2 { color: $hm-swatch-c; }
+  h3 { color: $hm-swatch-c; }
+
   h1,
-  h2 {
-    color: $hm-swatch-d;
+  h2,
+  h3 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -23,8 +27,10 @@
   }
 
   .masthead {
-    background: url('../images/header-hiddenmarsh.jpg') no-repeat center center;
+    background: url('../images/header-hiddenmarsh.jpg') no-repeat center center fixed;
     background-size: cover;
+    border-bottom: 10px solid $hm-swatch-b;
+    padding: 7.8em 0;
     text-align: center;
     
     h1 {
@@ -32,11 +38,6 @@
       font-size: 4em;
       text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
     }
-  }
-
-  .sg-section {
-    margin-top: 4em;
-    text-align: center;
   }
 
   .color-palette {
